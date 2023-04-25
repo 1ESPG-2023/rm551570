@@ -5,31 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/JS/zyb-5647.js" defer></script>
+    <script src="js/zyb-5647.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
 
-    <header class="cabeçalho">
+    <header class="cabecalho">
         <span>CABECALHO</span> 
     </header>
 
     <div class="container">
         <aside class="l-e">
-            <span>B-E</span>
+            <img  src="img/banner-lateral-1.png" alt="quadro">
         </aside>
         <section class="central">
             <span>CONTEÙDO</span>
         </section>
         <aside class="l-d">
-            <span>B-D</span>
+            <img src="img/banner-lateral-2.png" alt="quadro">
         </aside>
     </div>
 
     <footer class="rodape">
         <span>RODAPÈ</span>
-        <button value="10" onclick="console.log(`Resultado ${soma(this.value)}`)">CLICK</button>
+        <!-- <button value="10" onclick="console.log(`Resultado ${soma(this.value, 10,5)}`)">CLICK</button> -->
+        <button onclick="mudaCor()">START</button>
+        <button onclick="clearTimeout(tmp)">STOP</button>
+        <button onclick="alteraBanner()"></button>
     </footer>
 
 </body>

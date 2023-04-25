@@ -1,4 +1,4 @@
-.cabeçalho{
+.cabecalho{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 60vh;
+    height: auto;
     background-color: blueviolet;
 }
 
